@@ -1,0 +1,223 @@
+<pre class='metadata'>
+Title: 2022-05 Library Evolution Poll Outcomes
+Shortname: D2575
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
+Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
+URL: https://wg21.link/P2575
+!Source: <a href="https://github.com/brycelelbach/wg21_p2575_2022_05_library_evolution_poll_outcomes/blob/main/2022_05_library_evolution_poll_outcomes.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2575_2022_05_library_evolution_poll_outcomes/issues
+Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+Default Biblio Display: direct
+</pre>
+
+<style>
+table, th, tr, td {
+  border: 2px solid black !important;
+}
+@media (prefers-color-scheme: dark) {
+  table, th, tr, td {
+    border: 2px solid white !important;
+  }
+}
+</style>
+
+# Introduction # {#introduction}
+
+In 2022-05, the C++ Library Evolution group conducted a series of
+  electronic decision polls [[P2574R0]].
+This paper provides the results of those polls and summarizes the results.
+
+In total, 34 people participated in the polls.
+Some participants opted to not vote on some polls.
+Thank you to everyone who participated, and to the proposal authors for all
+  their hard work!
+
+# Poll Outcomes # {#poll-outcomes}
+
+* SF: Strongly Favor.
+* WF: Weakly Favor.
+* N: Neutral.
+* WA: Weakly Against.
+* SA: Strongly Against.
+
+<table>
+<tr>
+<th style="padding-bottom: 10px;">Poll
+<th>SF
+<th>WF
+<th>N
+<th>WA
+<th>SA
+<th>Outcome
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.1: Return [[P1885R10]] Naming Text Encodings to Demystify Them to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>6
+<td>11
+<td>2
+<td>0
+<td>1
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.2: Return [[P0792R8]] function_ref to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>11
+<td>10
+<td>1
+<td>1
+<td>1
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.3: Return [[P1223R3]] find_last to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>13
+<td>9
+<td>1
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.4: Send [[P1169R3]] Static operator() to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>13
+<td>9
+<td>0
+<td>0
+<td>0
+<td>Unanimous consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.5: Send [[P2553R1]] Make mdspan size_type Controllable to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>7
+<td>9
+<td>1
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.6: Send [[P2554R0]] C-Array Interoperability Of mdspan to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>6
+<td>10
+<td>3
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.7: Send [[P2540R0]] Empty Product For Certain Views to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>7
+<td>7
+<td>2
+<td>2
+<td>1
+<td>Weak consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.8: Send [[P2538R0]] ADL-Proof projected to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>8
+<td>11
+<td>2
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.9: Send the proposed resoluton in [[LWG3646]] ranges::view_interface::size Returns A Signed Type to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>10
+<td>9
+<td>0
+<td>0
+<td>0
+<td>Unanimous consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.10: Send [[P2520R0]] move_iterator Should Be A Random Access Iterator to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>12
+<td>5
+<td>1
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.11: Send [[P2499R0]] string_view Range Constructor Should Be Explicit to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>13
+<td>7
+<td>1
+<td>2
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.12: Send [[P2549R0]] unexpected Should Have error As Member Accessor to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>9
+<td>9
+<td>2
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1.13: Send [[P2517R0]] Add A Conditional noexcept Specification To apply to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>14
+<td>8
+<td>0
+<td>0
+<td>0
+<td>Unanimous consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 2.1: Send [[P2300R5]] std::execution to Library Working Group for C++26, classified as a focus ([[P0592R4]] bucket 1 item).
+<td>12
+<td>6
+<td>2
+<td>2
+<td>3
+<td>Weak consensus in favor. The Chair, Bryce Adelstein Lelbach, asked Vice Chairs Fabio Fracassi and Ben Craig to determine consensus on this poll, as the Chair is one of the co-authors of P2300.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 2.2: Return [[P1083R5]] resource_adaptor to Library Working Group for C++26, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>3
+<td>7
+<td>1
+<td>4
+<td>2
+<td>No consensus. The paper was not updated to follow Library Evolution guidance, which was the cause of most of the votes against. The authors will be asked to produce a new revision with the requested changes and then we will conduct another vote.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 2.3: Send [[P1202R4]] Asymmetric Fences to Library Working Group for the Concurrency TS v2, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>6
+<td>8
+<td>1
+<td>1
+<td>0
+<td>Consensus in favor.
+
+</table>
+
